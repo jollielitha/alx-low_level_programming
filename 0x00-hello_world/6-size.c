@@ -1,13 +1,11 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Description:  The function printf() prints output to consule
- * return: Always 0 (Success)
- * main - return values
+ * main -Entry point
+ * Return:Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
