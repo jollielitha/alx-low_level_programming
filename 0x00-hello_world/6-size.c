@@ -4,6 +4,7 @@
  *
  * Description:  The function printf() prints output to consule
  * return: Always 0 (Success)
+ * main - return values
  */
 
 int main()
