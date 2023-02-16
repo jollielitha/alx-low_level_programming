@@ -5,7 +5,8 @@
  * Description:  The function printf() prints output to consule
  * return: Always 0 (Success)
  */
-int main(void)
+
+int main()
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
