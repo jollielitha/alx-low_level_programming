@@ -1,11 +1,13 @@
 /* 
- * Printing with puts for first C progra
+ * Entry point - main
+ *
+ * Description - Function puts() prints message
+ *
+ * Return 0
  */
 
 #include <stdio.h>
-int main (){
-
+int main(void) {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
-
 }
