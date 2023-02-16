@@ -1,15 +1,16 @@
-#include <stdio.h>
+#include	<stdio.h>
 
-/* 
- * main- Entry Point
+/** 
+ * main - Entry Point
  *
- * Description -  puts() function  prints a message to the console
+ * Description:  puts() function  prints a message to the console
  *
  * Return 0
  */
 
-int main(void)
-{
-	puts("\"Programming is like building a multilingual puzzle");
+int	main(void)
+
+{	
+	put("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
