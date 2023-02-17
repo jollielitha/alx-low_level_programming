@@ -1,4 +1,3 @@
-#include <stdio.h>
 /**
  * main - Prints Last digit number that is generated randomly
  * Return: Always 0.
