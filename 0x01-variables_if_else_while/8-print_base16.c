@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  *
+ * Retun: 0 (Success)
  */
 int main(void)
 {
@@ -9,7 +10,7 @@ int main(void)
 
 	int d;
 
-	c='a';
+	c = 'a';
 	d = 0;
 	while
 		(d < 10) {
@@ -17,7 +18,7 @@ int main(void)
 			d++;
 		}
 	while
-		(c<= 'f'){
+		(c <= 'f') {
 			putchar(c);
 			c++;
 		}
