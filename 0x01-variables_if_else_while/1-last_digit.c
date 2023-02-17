@@ -5,6 +5,7 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX /2;
 
@@ -24,3 +25,4 @@ int main(void)
 				n, n % 10);
 	}
 	return (0);
+}
