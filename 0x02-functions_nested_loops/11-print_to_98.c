@@ -3,8 +3,7 @@
 /**
  *print_to_98 - natural numbers printed from n to 98
  *@n: Number to staret printing from
-Return: Always 0
- *
+ *Return: Always 0
  */
 void print_to_98(int n)
 {
