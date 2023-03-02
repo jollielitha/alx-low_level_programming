@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp - function to join together two strings
+ * _strcmp - function that compares two strings
  * @s1: string one
  * @s2: string two
  * Return: int value
@@ -9,29 +9,15 @@
 
 int _strcmp(char *s1, char *s2)
 {
-    int i = 0;
-    int j = 0;
-    int larger;
-    if (i < j)
-    {
-        larger = j;
-    }
-    else if (i > j)
-    {
-        larger = j;
-    }
-    else
-    {
-        larger = i;
-    }
-    for (i = 0; i < larger; i++)
-    {
-        if (s1[i] == s2[i])
-        {
-            return 0;
-        }
-        else {
-            return (s1[i] - s2[i]);
-        }
-    }
+	int i = 0;
+
+	while (s1[i] != '\0' && s2[i] != '\0')
+	{
+		if (s1[i] != s2[i])
+		{
+			return (s1[i] - s2[i]);
+		}
+		i++;
+	}
+	return (0);
 }
