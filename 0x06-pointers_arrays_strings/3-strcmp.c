@@ -9,8 +9,8 @@
 
 int _strcmp(char *s1, char *s2)
 {
-    int i = *s1;
-    int j = *s2;
+    int i = 0;
+    int j = 0;
     int larger;
     if (i < j)
     {
